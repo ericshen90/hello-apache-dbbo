@@ -30,6 +30,13 @@
   </developers>
 
   <dependencies>
+    <!-- Spring Cloud Alibaba Begin -->
+    <dependency>
+      <groupId>com.alibaba.cloud</groupId>
+      <artifactId>spring-cloud-starter-alibaba-nacos-config-server</artifactId>
+    </dependency>
+    <!-- Spring Cloud Alibaba End -->
+
     <!--   Spring Boot Begin -->
     <dependency>
       <groupId>org.springframework.boot</groupId>

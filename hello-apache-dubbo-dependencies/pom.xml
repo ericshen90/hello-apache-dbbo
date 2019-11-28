@@ -14,7 +14,7 @@
     <dubbo.version>2.7.4.1</dubbo.version>
     <dubbo-nacos.version>1.1.4</dubbo-nacos.version>
     <spring-cloud.version>Greenwich.SR3</spring-cloud.version>
-    <spring-cloud-alibaba.version>2.1.0.RELEASE</spring-cloud-alibaba.version>
+    <spring-cloud-alibaba.version>2.1.1.RELEASE</spring-cloud-alibaba.version>
     <alibaba-spring-context-support.version>1.0.5</alibaba-spring-context-support.version>
   </properties>
 

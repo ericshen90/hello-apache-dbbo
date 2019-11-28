@@ -15,7 +15,6 @@ dubbo:
 server:
   port: 8080
 
-
 endpoints:
   dubbo:
     enabled: true
@@ -29,3 +28,6 @@ management:
     web:
       exposure:
         include: "*"
+
+user:
+  name: Kobe Bryant
