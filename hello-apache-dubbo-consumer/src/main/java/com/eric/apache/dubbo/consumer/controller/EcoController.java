@@ -21,4 +21,9 @@ public class EcoController {
     return echoService.echo(str);
   }
 
+  @GetMapping(value = "lb")
+  public String lb(){
+    return echoService.lb();
+  }
+
 }

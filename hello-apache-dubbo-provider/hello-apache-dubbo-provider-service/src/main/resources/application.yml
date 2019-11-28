@@ -12,3 +12,5 @@ dubbo:
     serialization: kryo
   registry:
     address: nacos://127.0.0.1:8848
+  provider:
+    loadbalance: roundrobin
