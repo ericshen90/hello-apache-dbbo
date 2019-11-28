@@ -34,6 +34,7 @@
 
   <dependencyManagement>
     <dependencies>
+      <!--Spring Cloud-->
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-dependencies</artifactId>
@@ -42,6 +43,7 @@
         <scope>import</scope>
       </dependency>
 
+      <!--Spring Cloud Alibaba-->
       <dependency>
         <groupId>com.alibaba.cloud</groupId>
         <artifactId>spring-cloud-alibaba-dependencies</artifactId>
@@ -50,6 +52,7 @@
         <scope>import</scope>
       </dependency>
 
+      <!--Apache Dubbo-->
       <dependency>
         <groupId>org.apache.dubbo</groupId>
         <artifactId>dubbo</artifactId>
@@ -86,6 +89,22 @@
         <groupId>org.apache.dubbo</groupId>
         <artifactId>dubbo-spring-boot-actuator</artifactId>
         <version>${dubbo.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.apache.dubbo</groupId>
+        <artifactId>dubbo-serialization-kryo</artifactId>
+        <version>${dubbo.version}</version>
+        <exclusions>
+          <exclusion>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+          </exclusion>
+          <exclusion>
+            <groupId>org.apache.dubbo</groupId>
+            <artifactId>dubbo-common</artifactId>
+          </exclusion>
+        </exclusions>
       </dependency>
 
       <dependency>
