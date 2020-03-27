@@ -11,11 +11,11 @@
   <url>http://ericshen.coding.me</url>
 
   <properties>
-    <dubbo.version>2.7.4.1</dubbo.version>
-    <dubbo-nacos.version>1.1.4</dubbo-nacos.version>
-    <spring-cloud.version>Greenwich.SR3</spring-cloud.version>
+    <dubbo.version>2.7.5</dubbo.version>
+    <dubbo-nacos.version>1.2.0</dubbo-nacos.version>
+    <spring-cloud.version>Greenwich.SR5</spring-cloud.version>
     <spring-cloud-alibaba.version>2.1.1.RELEASE</spring-cloud-alibaba.version>
-    <alibaba-spring-context-support.version>1.0.5</alibaba-spring-context-support.version>
+    <alibaba-spring-context-support.version>1.0.6</alibaba-spring-context-support.version>
   </properties>
 
   <licenses>
