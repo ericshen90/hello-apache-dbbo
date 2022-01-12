@@ -11,7 +11,7 @@
   <url>http://ericshen.coding.me</url>
 
   <properties>
-    <dubbo.version>2.7.5</dubbo.version>
+    <dubbo.version>2.7.15</dubbo.version>
     <dubbo-nacos.version>1.2.0</dubbo-nacos.version>
     <spring-cloud.version>Greenwich.SR5</spring-cloud.version>
     <spring-cloud-alibaba.version>2.1.1.RELEASE</spring-cloud-alibaba.version>
